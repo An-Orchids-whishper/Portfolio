@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/* Default is dark */
+html.theme-dark {
+  --bg: #111827;
+  --text: #ffffff;
+}
+html.theme-light {
+  --bg: #f9fafb;
+  --text: #111827;
+}
+html.theme-neon {
+  --bg: #1a0033;
+  --text: #d946ef;
+}
+html.theme-hacker {
+  --bg: #000000;
+  --text: #00ff00;
+}
+
+/* Apply */
+body {
+  background-color: var(--bg);
+  color: var(--text);
+}
