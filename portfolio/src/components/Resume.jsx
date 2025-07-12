@@ -19,7 +19,7 @@ const Resume = () => {
           </p>
 
           <a
-            href="/Kartik_Resume.pdf"
+            href="/kartik_Resume.pdf"
             download
             className="inline-flex items-center gap-3 px-6 py-3 bg-blue-600 text-white rounded-full shadow-lg hover:bg-blue-700 hover:scale-105 transition-transform"
           >
