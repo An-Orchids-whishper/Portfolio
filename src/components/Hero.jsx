@@ -9,7 +9,7 @@ const Hero = () => {
       bg-white/10 dark:bg-white/10 backdrop-blur-md text-gray-900 dark:text-white transition-all duration-500"
     >
       <div className="max-w-4xl w-full text-center space-y-6 p-10 bg-white/5 dark:bg-white/5 rounded-2xl shadow-xl">
-        <h1 className="text-4xl md:text-5xl font-bold">Hi, I'm Kartik Pal</h1>
+        <h1 className="text-4xl md:text-5xl font-bold">Hi, I'm Kartik </h1>
 
         <h2 className="text-xl md:text-2xl">
           I am a{" "}
