@@ -100,9 +100,9 @@ export default function Hero() {
   const skills     = [{ label:"Frontend", w:88 }, { label:"Backend", w:82 }, { label:"ML / AI", w:68 }];
   const techs      = ["React","Next.js","Node","Python","TypeScript","MongoDB","Docker","Tailwind"];
   const statData   = [
-    { n:3,  u:"+", l:"Yrs Exp.", flo:floatB },
-    { n:20, u:"+", l:"Projects", flo:floatC },
-    { n:5,  u:"×", l:"Stacks",   flo:floatA },
+    { n:1,  u:"+", l:"Yrs Exp.", flo:floatB },
+    { n:3, u:"+", l:"Projects", flo:floatC },
+    { n:9,  u:"×", l:"Stacks",   flo:floatA },
   ];
 
   return (

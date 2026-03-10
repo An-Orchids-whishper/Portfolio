@@ -63,9 +63,9 @@ const traits = [
 ];
 
 const stats = [
-  { n: 3,  u: "+", l: "Yrs Exp." },
-  { n: 20, u: "+", l: "Projects" },
-  { n: 5,  u: "×", l: "Stacks"   },
+  { n: 1,  u: "+", l: "Yrs Exp." },
+  { n: 3, u: "+", l: "Projects" },
+  { n: 9,  u: "×", l: "Stacks"   },
 ];
 
 export default function About() {
