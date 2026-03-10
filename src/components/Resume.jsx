@@ -171,9 +171,9 @@ export default function Resume() {
   ];
 
   const stats = [
-    { n: 3,  suffix: "+", label: "Yrs Exp",  flo: floatA },
-    { n: 20, suffix: "+", label: "Projects", flo: floatB },
-    { n: 5,  suffix: "×", label: "Stacks",   flo: floatC },
+    { n: 1,  suffix: "+", label: "Yrs Exp",  flo: floatA },
+    { n: 3, suffix: "+", label: "Projects", flo: floatB },
+    { n: 9,  suffix: "×", label: "Stacks",   flo: floatC },
     { n: 94, suffix: "%", label: "Score",    flo: floatD },
   ];
 
