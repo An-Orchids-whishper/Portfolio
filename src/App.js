@@ -1,7 +1,4 @@
 import React, { useEffect, useState } from "react";
-
-
-import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Skills from "./components/Skills";
@@ -25,8 +22,6 @@ function App() {
 
       <MouseBlob />
 
-      {/* Pass theme state to Navbar so it can change it */}
-      <Navbar setTheme={setTheme} />
 
       <section data-aos="fade-up">
         <Hero />
